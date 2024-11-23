@@ -1,4 +1,5 @@
 import Header from "./components/header";
+import Footer from "./components/footer";
 import ListarTarefa from "./pages/tarefa/ListarTarefa";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <ListarTarefa />
+      <Footer />
     </div>
   );
 }
